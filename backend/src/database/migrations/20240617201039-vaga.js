@@ -37,10 +37,6 @@ module.exports = {
           model: 'area',
           key: 'id'
         }
-      },
-      status_vaga: {
-        type: Sequelize.BOOLEAN,
-        allowNull:false,
       }
     })
   },
